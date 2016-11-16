@@ -24,3 +24,6 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui \
     menuwidget.ui \
     gamewidget.ui
+
+RESOURCES += \
+    myresources.qrc

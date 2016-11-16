@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/images/resources/gameBackground.png);</string>
+  </property>
   <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">
     <rect>
