@@ -7,4 +7,4 @@ details are available in the wiki.
 # Requirements
 
 - C/C++ Compiler version grather than 4
-- Qt Designer 5
+- Qt Creator 5
