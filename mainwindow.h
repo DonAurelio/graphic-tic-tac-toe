@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "menuwidget.h"
+#include "gamewidget.h"
 
 namespace Ui {
 class MainWindow;
@@ -17,6 +19,11 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    MenuWidget *menuWidget;
+    GameWidget *gameWidget;
+
+public slots:
+    void onClickShowGameWidget();
 };
 
 #endif // MAINWINDOW_H
