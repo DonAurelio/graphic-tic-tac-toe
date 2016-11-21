@@ -24,6 +24,8 @@ private:
 
 public slots:
     void onClickShowGameWidget();
+    void onClickShowMenuWidget();
+    void onClickExit();
 };
 
 #endif // MAINWINDOW_H
