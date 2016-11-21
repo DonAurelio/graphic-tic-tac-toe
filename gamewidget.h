@@ -2,6 +2,12 @@
 #define GAMEWIDGET_H
 
 #include <QWidget>
+#include <QGridLayout>
+#include <QPushButton>
+#include <QSize>
+
+
+#define DIM 3
 
 namespace Ui {
 class GameWidget;
@@ -17,6 +23,12 @@ public:
 
 private:
     Ui::GameWidget *ui;
+    QGridLayout *gridLayout;
+    QPushButton *** buttons;
+
+private slots:
+    void onClickGridButton();
+
 };
 
 #endif // GAMEWIDGET_H
